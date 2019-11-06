@@ -4,11 +4,22 @@ Generate subset of a font via [fonttools](https://github.com/fonttools/fonttools
 
 ## Install
 
-1. Make sure `fonttools` is available on your environment (See next section)
+1. Make sure `fonttools` is available on your environment (See below)
 2. Run npm install
 
 ```console
 $ npm install @ginpei/generate-font-subset
+```
+
+### Install `fonttools`
+
+1. Install Python (v2 or v3): https://www.python.org/
+2. Install pip: https://pip.pypa.io/en/stable/installing/
+3. Then install `fonttools`
+
+```console
+$ sudo pip install fonttools
+$ pyftsubset --help
 ```
 
 ## usage
@@ -37,3 +48,13 @@ async function main() {
   }
 }
 ```
+
+## License
+
+- MIT
+
+## Author
+
+- Ginpei Takanashi
+- GitHub [@ginpei](https://github.com/ginpei/)
+- Twitter [@ginpei_en](https://twitter.com/ginpei_en/)
