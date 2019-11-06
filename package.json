@@ -1,0 +1,39 @@
+{
+  "name": "@ginpei/generate-font-subset",
+  "version": "1.0.0",
+  "description": "Generate subset of a font via fonttools",
+  "main": "lib/index.js",
+  "dependencies": {
+    "@types/node": "^12.12.6"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ginpei/generate-font-subset.git"
+  },
+  "keywords": [
+    "font",
+    "webfont",
+    "subset",
+    "fonttools"
+  ],
+  "author": "Ginpei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ginpei/generate-font-subset/issues"
+  },
+  "homepage": "https://github.com/ginpei/generate-font-subset#readme"
+}
