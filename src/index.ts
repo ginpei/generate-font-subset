@@ -18,7 +18,7 @@ export type FontToolsSubsetOptions = {
   text: string;
 }
 
-type FontToolsSubsetResult = {
+export type FontToolsSubsetResult = {
   code: number;
   errorOutput: string;
   output: string;
@@ -47,6 +47,7 @@ export function generate(options: FontToolsSubsetOptions) {
     pyftsubset.stderr.on('data', (chunk) => {
       errorOutput += String(chunk);
     });
+
     pyftsubset.on('data', (chunk) => {
       output += String(chunk);
     });
